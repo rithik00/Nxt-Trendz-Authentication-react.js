@@ -1,0 +1,77 @@
+/* Write your CSS code here */
+.login-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-img {
+  margin-left: 40px;
+  margin-top: 80px;
+  width: 50%;
+}
+
+.login-website-logo {
+  width: 150px;
+  height: 50px;
+  margin-bottom: 15px;
+  margin-left: 80px;
+}
+
+.login-form-container {
+  padding: 50px;
+  width: 30%;
+  height: 40%;
+  margin-right: 80px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px 10px #e2e8f0;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-element {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'roboto';
+  margin-bottom: 5px;
+}
+
+.username-input-filed {
+  width: 300px;
+  border-width: 1px;
+  background-color: #d7dfe9;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.password-input-filed {
+  width: 300px;
+  border-width: 1px;
+  background-color: #d7dfe9;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #0b69ff;
+  border-radius: 10px;
+  border-width: 0;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+}
